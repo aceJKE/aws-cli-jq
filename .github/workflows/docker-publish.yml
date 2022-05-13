@@ -1,0 +1,7 @@
+name: Docker
+on: [push]
+jobs:
+  asd:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world!"
